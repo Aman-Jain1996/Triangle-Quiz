@@ -26,6 +26,7 @@ label{
 
 .main{
     min-height:77vh;
+    padding:1rem;
     text-align: center;
     display: flex;
     flex-flow: column wrap;
@@ -110,6 +111,41 @@ input[type=number]{
     border: 1px solid black;
     box-shadow: 0 0 4px black;
     border-radius: 1rem;
+}
+
+.line1{
+    width:100px;
+    position: absolute;
+    background-color: black;
+    height:2px;
+    bottom: 0px;
+}
+
+.line2{
+    width:100px;
+    position: absolute;
+    background-color: black;
+    height:2px;
+    transform:rotate(90deg);
+    left:-50px;
+    top:49px;
+}
+
+.line3{
+    width:140px;
+    position: absolute;
+    background-color: black;
+    height:2px;
+    transform:rotate(45deg);
+    top:48px;
+    left:-19px;
+}
+
+.image{
+    width:100px;
+    height: 100px;
+    margin : 0px auto 10px;
+    position:relative;
 }
 
 #btn-submit:hover{
