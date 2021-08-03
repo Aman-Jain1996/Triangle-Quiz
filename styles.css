@@ -56,11 +56,17 @@ body{
 }
 
 .back{
-    border:1px solid black;
+    border:2px solid rgba(243, 156, 18,1);
     border-radius: 1rem;
     padding:8px 1rem;
     font-size: 1.1rem;
     font-weight: bold;
+}
+
+.back a:hover{
+    color: black;
+    font-weight: bolder;
+    font-size: 1.3rem;
 }
 
 .form-container{
@@ -81,7 +87,7 @@ input[type=number]{
     box-shadow: 0 0 4px black;
 }
 
-input[type=submit]{
+#btn-submit{
     display: block;
     margin: 2rem auto;
     background-color:white ;
@@ -97,7 +103,7 @@ input[type=submit]{
     border-radius: 1rem;
 }
 
-input[type=submit]:hover{
+#btn-submit:hover{
     background-color:rgb(243, 156, 18);
     color:var(--fn-color);
 }
