@@ -17,7 +17,11 @@ body{
     padding:0;
     margin:0;
     background-image: url("./images/background.jpg");
-    background-repeat: no-repeat;
+}
+
+label{
+    font-size: 1.4rem;
+    font-weight: bolder;
 }
 
 .main{
@@ -28,6 +32,11 @@ body{
     justify-content: center;
     align-items: center;
     align-content: center;
+}
+
+.formula{
+    border-top: 1px solid black;
+    padding:2px
 }
 
 .col {
