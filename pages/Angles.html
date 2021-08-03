@@ -5,30 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Triangle's Quiz</title>
-    <link rel="shortcut icon" href="./images/triangle.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="shortcut icon" href="../images/triangle.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="main">
-        <h1>Welcome to Fun with Triangles</h1>
-        <div class="box-container">
-            <div class="col">
-                <div class="cell">
-                    <a href="./pages/Angles.html">Triangle possible with angles?</a>
-                </div>
-                <div class="cell">
-                    <a href="">Check Hypotenuse</a>
-                </div>
-            </div>
-            <div class="col">
-                <div class="cell">
-                    <a href="">Calculate Area</a>
-                </div>
-                <div class="cell">
-                    <a href="">Triangle's Quiz</a>
-                </div>
-            </div>
+        <div class="back">
+            <a href="../index.html">&lt; Go Back</a>
+        </div>
+        <div class="form-container">
+            <h2>Enter the angles in below input boxes and we will tell you if those angles make a Triangle</h2>
+            <form>
+                <input type="number" max="178" min="0" required/>
+                <input type="number" max="178" min="0" required/>
+                <input type="number" max="178" min="0" required/>
+                <input type="submit" value="Submit" />
+            </form>
+        </div>
+        <div class="output-div">
+            <p class="output-para">Output will be visible here</p>
         </div>
     </div>
 
