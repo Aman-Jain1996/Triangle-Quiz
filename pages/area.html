@@ -41,13 +41,16 @@
                     <div class="line2"></div>
                     <div class="line3"></div>
                 </div>
-                <form id="form-submit">
+                <form id="form-submit1">
                     <label class="label-triangle" >base = </label>
                     <input id="input1" type="number" min="1" required/>
                     <label class="label-triangle" >height =</label>
                     <input id="input2" type="number" min="1" required/>
                     <button id="btn-submit">Calculate</button>
                 </form>
+                <div class="output-div">
+                    <p class="output-para1">Output will be calculated as <br/>Area= (base*height)/2</p>
+                </div>
             </div>
 
             <div id="form2" class="form-container">
@@ -59,15 +62,19 @@
                     <div class="line2"></div>
                     <div class="line3"></div>
                 </div>
-                <form id="form-submit">
+                <form id="form-submit2">
                     <label class="label-triangle" >a = </label>
-                    <input id="input1" type="number" min="1" required/>
-                    <label class="label-triangle" >b =</label>
-                    <input id="input2" type="number" min="1" required/>
-                    <label class="label-triangle" >c =</label>
                     <input id="input3" type="number" min="1" required/>
-                    <button id="btn-submit">Calculate</button>
+                    <label class="label-triangle" >b =</label>
+                    <input id="input4" type="number" min="1" required/>
+                    <label class="label-triangle" >c =</label>
+                    <input id="input5" type="number" min="1" required/>
+                    <p class="error-para">Enter valid side lengths such that each side length should be less than sum of other two sides</p>
+                    <button id="btn-submit" class="btn2">Calculate</button>
                 </form>
+                <div class="output-div">
+                    <p class="output-para2">Output will be calculated as <br/>Area= √<span class="formula">s*(s-a)*(s-b)*(s-c)</span></p>
+                </div>
             </div>
 
             <div id="form3" class="form-container">
@@ -80,20 +87,20 @@
                     <div class="line2"></div>
                     <div class="line3"></div>
                 </div>
-                <form id="form-submit">
+                <form id="form-submit3">
                     <label class="label-triangle" >A<sup>o</sup> = </label>
-                    <input id="input1" type="number" min="1" required/>
+                    <input id="input6" type="number" min="1" required/>
                     <label class="label-triangle" >b =</label>
-                    <input id="input2" type="number" min="1" required/>
+                    <input id="input7" type="number" min="1" required/>
                     <label class="label-triangle" >c =</label>
-                    <input id="input3" type="number" min="1" required/>
+                    <input id="input8" type="number" min="1" required/>
                     <button id="btn-submit">Calculate</button>
                 </form>
+                <div class="output-div">
+                    <p class="output-para3">Output will be calculated as <br/>Area= (b*c*Sin(A<sup>o</sup>))/2</p>
+                </div>
             </div>
 
-        </div>
-        <div class="output-div">
-            <p class="output-para">Output will be calculated as c= √<span class="formula">a<sup>2</sup> + b <sup>2</sup></span></p>
         </div>
     </div>
 
