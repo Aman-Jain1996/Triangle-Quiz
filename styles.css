@@ -189,7 +189,7 @@ input[type=number]{
 .output-div{
     border:1px solid black;
     padding:1rem;
-    max-width:600px;
+    max-width:400px;
     width:80%;
     background-color:rgba(243, 156, 18,1);
     font-weight: bold;
