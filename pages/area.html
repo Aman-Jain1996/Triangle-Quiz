@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle's Quiz</title>
+    <link rel="shortcut icon" href="../images/triangle.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="main">
+        <div class="back">
+            <a href="../index.html">&lt; Go Back</a>
+        </div>
+        <div class="form-container">
+            <h2>Calculate Area</h2>
+            <h3>Select an option below as per the data you have for a triangle</h3>
+            <form id="form-submit">
+                <div class="option-container">
+                    <input type="radio" name="option-area" id="option1" required value="cal1" />
+                    <label for="option1">If you have base and height length</label>
+                </div>
+                <div class="option-container">
+                    <input type="radio" name="option-area" id="option2" required value="cal2" />
+                    <label for="option2">If you have length of 3 sides</label>
+                </div>
+                <div class="option-container">
+                    <input type="radio" name="option-area" id="option3" required value="cal3" />
+                    <label for="option3">If you have length of 2 sides and included angle</label>
+                </div>
+            </form>
+
+            <div id="form1" class="form-container">
+                <div class="image">
+                    <label class="label-1" >height</label>
+                    <label class="label-2" >base</label>
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                <form id="form-submit">
+                    <label class="label-triangle" >base = </label>
+                    <input id="input1" type="number" min="1" required/>
+                    <label class="label-triangle" >height =</label>
+                    <input id="input2" type="number" min="1" required/>
+                    <button id="btn-submit">Calculate</button>
+                </form>
+            </div>
+
+            <div id="form2" class="form-container">
+                <div class="image">
+                    <label class="label1" >a</label>
+                    <label class="label2" >b</label>
+                    <label class="label3" >c</label>
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                <form id="form-submit">
+                    <label class="label-triangle" >a = </label>
+                    <input id="input1" type="number" min="1" required/>
+                    <label class="label-triangle" >b =</label>
+                    <input id="input2" type="number" min="1" required/>
+                    <label class="label-triangle" >c =</label>
+                    <input id="input3" type="number" min="1" required/>
+                    <button id="btn-submit">Calculate</button>
+                </form>
+            </div>
+
+            <div id="form3" class="form-container">
+                <div class="image">
+                    <label class="label-3" >A<sup>o</sup></label>
+                    <label class="label2" >b</label>
+                    <label class="label3" >c</label>
+                    <label class="label-4" >C</label>
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                <form id="form-submit">
+                    <label class="label-triangle" >A<sup>o</sup> = </label>
+                    <input id="input1" type="number" min="1" required/>
+                    <label class="label-triangle" >b =</label>
+                    <input id="input2" type="number" min="1" required/>
+                    <label class="label-triangle" >c =</label>
+                    <input id="input3" type="number" min="1" required/>
+                    <button id="btn-submit">Calculate</button>
+                </form>
+            </div>
+
+        </div>
+        <div class="output-div">
+            <p class="output-para">Output will be calculated as c= √<span class="formula">a<sup>2</sup> + b <sup>2</sup></span></p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p class="footer-para">Social presence at :</p>
+        <div class="social-links">
+            <a href="https://github.com/Aman-Jain1996" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+            <a href="https://twitter.com/ajain84791" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+            <a href="https://www.instagram.com/ajain8479" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+            <a href="https://portfolio-amanjain.netlify.app/" target="_blank"><i class="fa fa-briefcase fa-2x"></i></a>
+            <a href="https://www.linkedin.com/in/aman-jain-8082b510a/" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
+        </div>
+        <p class="footer-para">Made with 💛 by @AJ-Creations</p>
+    </footer>
+    <script src="../JS pages/area.js"></script>
+</body>
+</html>

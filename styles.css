@@ -54,6 +54,14 @@ body{
     box-shadow: 0 0 2px var(--bg-color);
 }
 
+.option-container{
+    text-align: left;
+    width:80%;
+    margin:1rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
 .question-para{
     margin-block-start: 0;
     font-size: 1.1rem;
@@ -119,7 +127,7 @@ input[type=number]{
     background-color:white ;
     outline:none;
     height:50px;
-    width:100px;
+    width:120px;
     text-align: center;
     color:rgba(243, 156, 18,1);
     font-size: 1.3rem;
@@ -128,6 +136,7 @@ input[type=number]{
     box-shadow: 0 0 4px black;
     border-radius: 1rem;
 }
+
 
 .line1{
     width:100px;
@@ -157,6 +166,7 @@ input[type=number]{
     left:-19px;
 }
 
+
 .label1{
     position: absolute;
     left: -20px;
@@ -172,6 +182,31 @@ input[type=number]{
     position: absolute;
     top:20px;
     left:50px;
+}
+
+.label-1{
+    position: absolute;
+    left: -50px;
+    top: 30px;
+}
+
+.label-2{
+    position: absolute;
+    bottom:-25px;
+    left:30px;
+}
+
+.label-3{
+    position: absolute;
+    bottom:4px;
+    right:25px;
+}
+
+.label-4{
+    position: absolute;
+    bottom:-2px;
+    right:8px;
+    transform: rotate(30deg);
 }
 
 .image{
