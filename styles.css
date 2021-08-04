@@ -5,6 +5,7 @@
 
 *{
     box-sizing: border-box;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 a{
@@ -26,7 +27,7 @@ body{
 }
 
 .main{
-    min-height:77vh;
+    min-height:80vh;
     padding:1rem;
     text-align: center;
     display: flex;
@@ -236,7 +237,7 @@ input[type=number]{
 }
 
 .footer{
-    min-height: 23vh;
+    min-height: 20vh;
     margin:auto;
     width:100%;
     text-align: center;
