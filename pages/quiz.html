@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle's Quiz</title>
+    <link rel="shortcut icon" href="../images/triangle.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="main">
+        <div class="back">
+            <a href="../index.html">&lt; Go Back</a>
+        </div>
+        <div class="form-container">
+            <h2>Test your knowledge of Triangle's here</h2>
+            <form id="form-submit">
+                <div class="questions">
+                    <p class="question-para"> 1. If a triangle has angles 135<sup>o</sup>, 15<sup>o</sup>, 30<sup>o</sup>. Is it an obtuse triangle?</p>
+                    <input required type="radio" id="radio1" name="que1" value="option1"><label for="radio1">Yes</label>
+                    <input required type="radio" id="radio2" name="que1" value="option2"><label for="radio2">No</label>
+                </div>
+                <div class="questions" >
+                    <p class="question-para" > 2. If a triangle has angles 115<sup>o</sup>, 25<sup>o</sup>, 40<sup>o</sup>. Is it an acute triangle?</p>
+                    <input type="radio" id="radio3" name="que2" value="option1" required /><label>Yes</label>
+                    <input type="radio" id="radio4" name="que2" value="option2" required /><label>No</label>
+                </div>
+                <div class="questions">
+                    <p class="question-para" > 3. If a triangle has angles 90<sup>o</sup>, 60<sup>o</sup>, 30<sup>o</sup>. Is it a right angle triangle?</p>
+                    <input type="radio" id="radio5" name="que3" value="option1" required /><label>Yes</label>
+                    <input type="radio" id="radio6" name="que3" value="option2" required /><label>No</label>
+                </div>
+                <div class="questions">
+                    <p class="question-para"> 4. A triangle has angles 60<sup>o</sup>, 60<sup>o</sup>, 60<sup>o</sup>. Is it an equilateral triangle?</p>
+                    <input type="radio" id="radio7" name="que4" value="option1" required /><label>Yes</label>
+                    <input type="radio" id="radio8" name="que4" value="option2" required /><label>No</label>
+                </div>
+                <div class="questions">
+                    <p class="question-para"> 5. If a triangle has angles 25<sup>o</sup>, 75<sup>o</sup>, 80<sup>o</sup>. Is it an acute triangle?</p>
+                    <input type="radio" id="radio9" name="que5" value="option1" required /><label>Yes</label>
+                    <input type="radio" id="radio10" name="que5" value="option2" required /><label>No</label>
+                </div>
+                <div class="questions">
+                    <p class="question-para"> 6. If a triangle has 2 sides with equal lengths and 75<sup>o</sup> angle between them. What is the type of triangle?</p>
+                    <input type="radio" id="radio11" name="que6" value="option1" required /><label>Equilateral</label>
+                    <input type="radio" id="radio12" name="que6" value="option2" required /><label>Isosceles</label>
+                    <input type="radio" id="radio13" name="que6" value="option3" required /><label>Right Angle traingle</label>
+                </div>
+                <div class="questions">
+                    <p class="question-para"> 7. If a triangle has 2 angles of 75<sup>o</sup>. What is the measure of third angle in degree?</p>
+                    <input type="radio" id="radio14" name="que7" value="option1" required /><label>25</label>
+                    <input type="radio" id="radio15" name="que7" value="option2" required /><label>30</label>
+                    <input type="radio" id="radio16" name="que7" value="option3" required /><label>15</label>
+                </div>
+                <div class="questions">
+                    <p class="question-para"> 8. If a triangle has 2 sides with equal lengths and 60<sup>o</sup> angle between them. What is the type of triangle?</p>
+                    <input type="radio" id="radio17" name="que8" value="option1" required /><label>Equilateral</label>
+                    <input type="radio" id="radio18" name="que8" value="option2" required /><label>Isosceles</label>
+                    <input type="radio" id="radio19" name="que8" value="optio3" required /><label>Both</label>
+                </div>
+                <div class="questions">
+                    <p class="question-para"> 9. The perimeter of an equilateral triangle is 15cm. What is the length of one side?</p>
+                    <input type="radio" id="radio20" name="que9" value="option1" required /><label>15cm</label>
+                    <input type="radio" id="radio21" name="que9" value="option2" required /><label>45cm</label>
+                    <input type="radio" id="radio22" name="que9" value="option3" required /><label>5cm</label>
+                </div>
+                <div class="questions">
+                    <p class="question-para"> 10. If a triangle has sides of 2cm, 3cm, 4cm, what is the type of triangle?</p>
+                    <input type="radio" id="radio23" name="que10" value="option1" required /><label>Equilateral</label>
+                    <input type="radio" id="radio24" name="que10" value="option2" required /><label>Isosceles</label>
+                    <input type="radio" id="radio25" name="que10" value="option3" required /><label>Scalene</label>
+                </div>
+                <button id="btn-submit">Submit</button>
+            </form>
+        </div>
+        <div class="output-div">
+            <p class="output-para">Score will be visible here - <br/> <em style="color:red ; font-size: 1.4rem;">Note</em> : For every correct answer +1 is rewarded</p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p class="footer-para">We can connect socially at :</p>
+        <div class="social-links">
+            <a href="https://github.com/Aman-Jain1996" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+            <a href="https://twitter.com/ajain84791" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+            <a href="https://www.instagram.com/ajain8479" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+            <a href="https://portfolio-amanjain.netlify.app/" target="_blank"><i class="fa fa-briefcase fa-2x"></i></a>
+            <a href="https://www.linkedin.com/in/aman-jain-8082b510a/" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
+        </div>
+        <p class="footer-para">Made with 💛 by @AJ-Creations</p>
+    </footer>
+    <script src="../JS pages/hypotenuse.js"></script>
+</body>
+</html>

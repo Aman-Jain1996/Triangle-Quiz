@@ -14,12 +14,13 @@ a{
 }
 
 body{
+    scroll-behavior: smooth;
     padding:0;
     margin:0;
     background-image: url("./images/background.jpg");
 }
 
-label{
+.label-triangle{
     font-size: 1.4rem;
     font-weight: bolder;
 }
@@ -42,6 +43,21 @@ label{
 
 .col {
     display: flex;
+}
+
+.questions{
+    border:2px solid black;
+    margin: 1rem auto;
+    padding:1rem;
+    border-radius:8px;
+    background-color:rgba(243, 156, 18,0.5);
+    box-shadow: 0 0 2px var(--bg-color);
+}
+
+.question-para{
+    margin-block-start: 0;
+    font-size: 1.1rem;
+    font-weight: bold;
 }
 
 .cell{
