@@ -141,10 +141,27 @@ input[type=number]{
     left:-19px;
 }
 
+.label1{
+    position: absolute;
+    left: -20px;
+    top: 30px;
+}
+
+.label2{
+    position: absolute;
+    bottom:-25px;
+}
+
+.label3{
+    position: absolute;
+    top:20px;
+    left:50px;
+}
+
 .image{
     width:100px;
     height: 100px;
-    margin : 0px auto 10px;
+    margin : 0px auto 25px;
     position:relative;
 }
 
@@ -164,6 +181,7 @@ input[type=number]{
     min-height: 10vh;
     text-align: center;
     margin-bottom: 2rem;
+    line-height: 2rem;
 }
 
 .footer{
