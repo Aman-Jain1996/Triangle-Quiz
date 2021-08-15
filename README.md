@@ -13,8 +13,8 @@ Using this app user can check for various aspects of triangle and check their kn
 
 ## How to use 
 
-1. Triangle possible with angles : User can provide the three angles and check if triangle is possible or not.
-2. Check hypotenuse : User can calculate the hypotenuse of the triangle by providing two sides of right angle triangle.
-3. Calculate Area : User can calculate the area of triangle based on values known.
-4. Quiz : A quiz where user can answer the simple questions and test their knowledge.
+1. __ Triangle possible with angles :__ User can provide the three angles and check if triangle is possible or not.
+2. __ Check hypotenuse :__ User can calculate the hypotenuse of the triangle by providing two sides of right angle triangle.
+3. __ Calculate Area :__ User can calculate the area of triangle based on values known.
+4. __ Quiz :__ A quiz where user can answer the simple questions and test their knowledge.
  
