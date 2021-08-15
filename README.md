@@ -2,6 +2,8 @@
 
 [Triangle Quiz](https://trianglequiz01.netlify.app/)
 
+This application is made using HTML , CSS and hosted using Netlify.
+
 ## About
 
 Using this app user can check for various aspects of triangle and check their knowledge about it . It has four sections as :
